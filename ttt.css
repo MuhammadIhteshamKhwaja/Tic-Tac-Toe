@@ -1,0 +1,101 @@
+body{
+    font-family: 'Itim', cursive;
+    background-color: #12181B;
+    margin: 0;
+    padding: 0;
+}
+.fontStyle{
+    font-family: cursive;
+    font-size: 70px;
+    transition: opacity 0.5s ease-in-out;
+    
+}
+
+.container{
+    margin-top: 10vmin;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    width: 60vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+.box{
+    width: 18vmin;
+    height: 18vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    background-color: #12181B;
+    color: white;
+    
+}
+.btn-container{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    
+}
+.new-game , .mode{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ff1493 ;
+    color  : rgb(255, 255, 255) ; 
+    padding: 2vmin 3.5vmin;
+    border : none;
+    font-size: large;
+    border-radius: 15px;
+    margin-top: 3vmin;
+    font-style: oblique;
+    transition: opacity 0.3s ease,padding 0.3s ease , 
+    font-weight 0.1s ease-in-out;
+   }
+             .new-game:hover , .mode:hover{
+               font-style: italic ;
+               font-weight: bold;
+               opacity: 0.7;
+               padding: 2vmin 6vmin;
+               cursor: crosshair;
+             }
+
+             .new-game:active , .mode:active{
+               opacity: 0.9;
+               padding: 2vmin 4vmin;
+
+
+             
+}
+.mode{
+    background-color:  #39FF14;
+    
+}
+
+
+.winner{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 9vmin;
+  color: #ff1493;
+  
+}
+.hide{
+ display:none ;
+}
+.header{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3vmin;
+    height: 70px;
+}
